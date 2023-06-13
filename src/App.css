@@ -17,6 +17,10 @@
   align-items: flex-start;
 }
 
+.message .message-text {
+  border-radius: 12px;
+}
+
 .message.my {
   align-items: flex-end;
 }
@@ -30,8 +34,7 @@
   padding: 5px;
 }
 
-.message.my .message-text {
-  border-radius: 12px;
+.message.my .message-text {  
   background-color: cornflowerblue;
   color: white;
 }
